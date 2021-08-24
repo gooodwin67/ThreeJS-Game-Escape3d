@@ -1,0 +1,60 @@
+body { 
+  margin: 0;
+  background: #1C1D21;
+}
+canvas { 
+  width: 100%; height: 100%;
+  margin-top:2px;
+  border: 1px solid #ccc;
+}
+.info {
+  color: #fff;
+  font-size: 25px;
+}
+.panel {
+  color: #fff;
+  border: 1px solid #fff;
+  height: 40px;
+  font-size: 20px;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+.panel1 {
+  display: flex;
+}
+.camera {
+
+}
+.cam {
+  margin-left: 5px;
+}
+.lev-text {
+  margin-left: 10px; 
+}
+.authorText {
+  margin-top: 7px;
+  display: inline-block;
+}
+.author a {
+  margin-right: 10px;
+  color: #6F83D1;
+  text-decoration: none;
+}
+.camChooseBtn {
+  background: #ccc;
+  padding: 0px 5px;
+  color: #000;
+  /*margin:10px 0;*/
+  margin-top: 7px;
+  display: inline-block;
+  cursor:pointer;
+  box-shadow: 0px 0px 10px #000 inset;
+}
+.lev {
+  padding: 0px 5px;
+  color: #fff;
+  /*margin:10px 0;*/
+  margin-top: 7px;
+  display: inline-block;
+}
